@@ -1,0 +1,25 @@
+<h1>Half Adder Implementation using Verilog</h1>
+
+<h2>This project is a hardware implementation of a Half Adder digital circuit using Verilog HDL and simulated in the <a href="https://www.xilinx.com/products/design-tools/vivado.html" title="This link directs to Xilinx Vivado official page">Xilinx Vivado</a> Design Suite.</h2>
+
+This project provides a clean and accurate RTL design of a Half Adder. The fun fact is, you can move from basic logic gates to a professional FPGA simulation environment within a few hours (sounds cool right !!!).
+
+<p>I created this project to bridge the gap between theoretical Boolean logic and practical Hardware Description Language (HDL). I learned the Vivado workflow and Verilog syntax on the fly, focusing on Dataflow modeling and Behavioral simulation.</p>
+
+If you are someone who is curious about VLSI, Digital Electronics, or FPGA development, I highly encourage you to start with this project to understand how code translates into hardware logic.
+
+With that being said, Let's get started !!!
+
+<h2>Requirements:</h2> <ul> <p>Design Suite&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbspXilinx Vivado</p> <p>Language&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbspVerilog HDL</p> <p>Version Control&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbspGit (Optional)</p> <p>Cloud based Repository&nbsp&nbsp:&nbspGitHub (Optional)</p> </ul>
+
+<h2>Project Components:</h2> <p>1. <b>Design Source:</b> The <code>half_adder.v</code> file containing the XOR and AND logic using dataflow modeling.</p> <p>2. <b>Simulation Source:</b> The <code>Half_Adder_TB.v</code> (Testbench) file used to drive input stimuli and verify the truth table.</p> <p>3. <b>Simulation Waveform:</b> Visual proof of the logic showing the Sum and Carry transitions for all input cases (00, 01, 10, 11).</p>
+
+<h2>Additional Tips:</h2> <p>When viewing your results in Vivado, use the <b>"Zoom Fit"</b> button (or press 'F') to see the entire simulation waveform clearly.</p>
+
+
+</br> <p>I know, HDL can feel intimidating at the beginning with terms like "Synthesis" and "Implementation." But the simplest way to learn is to write the code and see the waveforms move.</p> <p>If you want to understand the basics of the Vivado workflow, check out this quick guide: <a href="https://docs.amd.com/r/en-US/ug893-vivado-using-the-ide/Using-the-Vivado-IDE">Vivado Design Suite Documentation</a></p>
+
+<h2>Conclusion</h2> <p>I hope you all are eager to get started with digital design.</p>
+
+
+</br> <p>SO WHAT ARE YOU WAITING FOR? CLONE THE REPO AND RUN YOUR FIRST SIMULATION!</p> <p>HAPPY CODING !!!</p>
